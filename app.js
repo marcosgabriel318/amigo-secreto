@@ -8,6 +8,7 @@ function gerarNumeroAleatorio() {
 }
 
 function atualizaListadeAmigos() {
+  resultado.innerHTML = "";
   nameList.innerHTML = "";
   nomeAmigos.map((name) => {
     const li = document.createElement("li");
